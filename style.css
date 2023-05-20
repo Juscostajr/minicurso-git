@@ -66,4 +66,18 @@ footer {
 	footer {
 		padding: 10px;
 	}
+
+	/* Página Graduação */
+
+	.curso {
+		margin-bottom: 20px;
+	}
+	
+	.curso img {
+		width: 200px;
+		height: 150px;
+		object-fit: cover;
+		margin-right: 10px;
+		float: left;
+	}
 }
