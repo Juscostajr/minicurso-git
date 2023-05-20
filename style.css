@@ -67,3 +67,10 @@ footer {
 		padding: 10px;
 	}
 }
+ul li {
+	list-style: none;
+}
+
+.imagem{
+	width: 30px;
+}
