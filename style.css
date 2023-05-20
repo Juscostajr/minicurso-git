@@ -1,83 +1,91 @@
 body {
-	margin: 0;
-	font-family: Arial, Verdana;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
 }
+
 header {
-	background-color: #FFF;
-	box-shadow: 0 0 10px #CCC;
-	margin-bottom: 20px;
-	padding: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: #0d2543;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
 }
+
+header img {
+  width: 15em;
+}
+
+header a:hover {
+  color: #129ff5;
+}
+
 nav {
-	float: right;
+  float: right;
 }
 nav ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px;
+  justify-content: center;
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
 }
 nav ul li a {
-	color:  #F00;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 main {
-	width:  100%;
+  box-sizing: border-box;
+  padding: 0 50px;
+  width: 100%;
 }
 section {
-	width: 70%;
-	float: left;
-	padding: 10px;
-	box-sizing: border-box;
+  width: 70%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
 }
 aside {
-	width: 30%;
-	float: right;
-	padding: 10px;
-	box-sizing: border-box;
+  width: 30%;
+  float: right;
+  padding: 10px;
+  box-sizing: border-box;
 }
 footer {
-	width: 100%;
-	display: inline-block;
-	box-shadow: 0 0 10px #ccc;
-	text-align: center;
-	margin-top: 10px;
+  color: #fff;
+  background-color: #0d2543;
+  width: 100%;
+  display: inline-block;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+  margin-top: 10px;
 }
 .img {
-	width: 100%;
+  width: 100%;
 }
 
-@media (max-width:  480px) {
-
-	header, nav, footer, section, aside  {
-		width: 100%;
-		display: inline-block;
-		text-align: center;
-	}
-	nav ul {
-		padding: 0px;
-	}
-	nav ul li {
-		display: block;
-		text-align: center;
-	}
-	section .img {
-		display: none;
-	}
-	footer {
-		padding: 10px;
-	}
-
-	/* Página Graduação */
-
-	.curso {
-		margin-bottom: 20px;
-	}
-	
-	.curso img {
-		width: 200px;
-		height: 150px;
-		object-fit: cover;
-		margin-right: 10px;
-		float: left;
-	}
+@media (max-width: 480px) {
+  header,
+  nav,
+  footer,
+  section,
+  aside {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  nav ul {
+    padding: 0px;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+  }
+  section .img {
+    display: none;
+  }
+  footer {
+    padding: 10px;
+  }
 }
+
